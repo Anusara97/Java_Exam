@@ -40,4 +40,10 @@ public class Contacts {
     public String getAddress() {
         return address;
     }
+
+    @Override
+    public String toString() {
+        String msg = "Email: " + getEmail() + " Telephone: " + getTelephone() + " Address: " + getAddress();
+        return msg;
+    }
 }
