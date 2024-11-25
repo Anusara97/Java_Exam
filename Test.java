@@ -10,10 +10,12 @@ public class Test {
         aus[0] = a1;
 
         Book b1 = new Book("IoT in Medicine", aus, p1, 2016, "1307894566", "Second", 1650.00);
+        Conference conf1 = new Conference("Iot in Medicine", aus, p1, 2018, "iCMA", "Galle");
 
         // System.out.println(c1);
         // System.out.println(a1);
         // System.out.println(p1);
-        System.out.println(b1);
+        // System.out.println(b1);
+        System.out.println(conf1);
     }
 }
