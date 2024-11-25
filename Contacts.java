@@ -4,7 +4,7 @@ public class Contacts {
     private String address;
 
     public Contacts(String email) {
-        this(email, "not given");
+        this(email, "not given", "not given");
     }
 
     public Contacts(String email, String telephone) {

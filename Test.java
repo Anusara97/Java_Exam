@@ -7,7 +7,7 @@ public class Test {
         Publisher p1 = new Publisher("SJP", c2);
 
         // System.out.println(c1);
-        // System.out.println(a1);
+        System.out.println(a1);
         System.out.println(p1);
     }
 }
