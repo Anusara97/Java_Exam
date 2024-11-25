@@ -16,7 +16,7 @@ public class Publisher {
     }
 
     public String toString() {
-        String msg = "The publisher is " + getPublisherName() + " and its contact details are " + contact.toString();
+        String msg = " The publisher is " + getPublisherName() + " and its contact details are " + contact.toString();
         return msg;
     }
 }

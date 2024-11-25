@@ -57,7 +57,7 @@ public abstract class Publication implements IPublication {
 
     @Override
     public String toString() {
-        String msg = "The publication " + getTitle() + " is written by " + getAuthors()[0].toString()
+        String msg = " The publication " + getTitle() + " is written by " + getAuthors()[0].toString()
                 + getPublisher().toString();
         return msg;
     }
