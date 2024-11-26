@@ -11,11 +11,13 @@ public class Test {
 
         Book b1 = new Book("IoT in Medicine", aus, p1, 2016, "1307894566", "Second", 1650.00);
         Conference conf1 = new Conference("Iot in Medicine", aus, p1, 2018, "iCMA", "Galle");
+        OralPresentation o1 = new OralPresentation("Iot in Medicine", aus, p1, 2018, "iCMA", "Galle", "Nuwan");
 
         // System.out.println(c1);
         // System.out.println(a1);
         // System.out.println(p1);
         // System.out.println(b1);
-        System.out.println(conf1);
+        // System.out.println(conf1);
+        System.out.println(o1);
     }
 }
