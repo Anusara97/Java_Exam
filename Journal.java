@@ -8,7 +8,9 @@ public class Journal {
     }
 
     public Journal(String jounalName, int volume, int issue) {
-
+        setJournalName(jounalName);
+        setVolume(volume);
+        setIssue(issue);
     }
 
     public void setJournalName(String journalName) {
@@ -45,7 +47,7 @@ public class Journal {
 
     @Override
     public String toString() {
-        String msg = "Issue " + getIssue() + " volume " + getVolume() + " of Journal " + getJournalName();
+        String msg = "Issue " + getIssue() + " of volume " + getVolume() + " of Journal of " + getJournalName();
         return msg;
     }
 }

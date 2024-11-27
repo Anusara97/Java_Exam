@@ -22,7 +22,7 @@ public class Test {
         // System.out.println(b1);
         // System.out.println(conf1);
         // System.out.println(o1);
-        System.out.println(pos1);
+        // System.out.println(pos1);
         System.out.println(j1);
     }
 }
