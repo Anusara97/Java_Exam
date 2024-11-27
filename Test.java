@@ -17,6 +17,7 @@ public class Test {
         Journal j1 = new Journal("IEEE", 18, 8);
         JournalArtical ja1 = new JournalArtical("Cyber Security", aus, p1, 2018, j1);
         AbstractPaper ap1 = new AbstractPaper("Cyber Security", aus, p1, 2018, j1, "CIA, ECC.");
+        FullPaper f1 = new FullPaper("Cyber Security", aus, p1, 2018, j1, "CIA, ECC.", "11-15.");
 
         // System.out.println(c1);
         // System.out.println(a1);
@@ -27,6 +28,7 @@ public class Test {
         // System.out.println(pos1);
         // System.out.println(j1);
         // System.out.println(ja1);
-        System.out.println(ap1);
+        // System.out.println(ap1);
+        System.out.println(f1);
     }
 }
