@@ -20,5 +20,4 @@ public class AbstractPaper extends JournalArtical {
         String msg = super.toString() + ". However, the keywords of its abstract are " + getKeywords();
         return msg;
     }
-
 }
