@@ -15,6 +15,7 @@ public class Test {
         PosterPresentation pos1 = new PosterPresentation("Iot in Medicine", aus, p1, 2018, "iCMA", "Galle", "6x4");
 
         Journal j1 = new Journal("IEEE", 18, 8);
+        JournalArtical ja1 = new JournalArtical("Cyber Security", aus, p1, 2018, j1);
 
         // System.out.println(c1);
         // System.out.println(a1);
@@ -23,6 +24,7 @@ public class Test {
         // System.out.println(conf1);
         // System.out.println(o1);
         // System.out.println(pos1);
-        System.out.println(j1);
+        // System.out.println(j1);
+        System.out.println(ja1);
     }
 }
